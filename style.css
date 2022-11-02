@@ -1,0 +1,201 @@
+@import url("https://use.typekit.net/eyb3kst.css");
+*{
+font-family: poppins, sans-serif;
+font-weight: 700;
+font-style: normal;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+
+}
+.navigation a:hover{
+    color: rgb(134, 131, 131);
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(https://wallpaperaccess.com/full/796854.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+    
+    
+
+.main h3{
+    color: white;
+    width: 50%;
+    font-size: 1em;;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 8px; ;
+}
+
+.main-btn{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.695);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    background: rgba(0, 0, 0, 0.827);
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color: black;
+    font-size: 1.7em;
+    padding-right: 10px;
+    padding-left: 40px;
+} 
+    .social-icons-fot a{
+        color: white;
+        font-size: 1.7em;
+        padding-right: 10px;
+        padding-left: 40px;
+        
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.contant{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon {
+    color: black;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+.info p{
+    color:rgb(134, 131, 131)
+}
+.contact .icon {
+    font-size: 4em;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1em;
+    font-weight: 300;
+}
+.footer-title span{
+    color: grey;
+}
+
+@media (max-width:1023px){
+        header{
+            padding: 12px 20px;
+        }
+    
+        .navigation{
+            padding-left: 10px;
+        }
+        .title{
+            font-size: 1.8em;
+        }
+        section{
+            padding: 80px 20px;
+        }
+        .main h2{
+            font-size: 1em;
+        }
+        .main h3{
+            font-size: 1.6em;
+    
+        }
+        .contant{
+            flex-direction: column;
+            align-items: center;
+    
+        }
+    }
